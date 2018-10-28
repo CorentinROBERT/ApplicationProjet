@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grid"
+            android:icon="@drawable/ic_menu_grid"
+            android:title="GridActivity" />
+        <item
+            android:id="@+id/nav_circle"
+            android:icon="@drawable/ic_menu_circle"
+            android:title="Cercle" />
+        <item
+            android:id="@+id/nav_version"
+            android:icon="@drawable/ic_menu_version"
+            android:title="Version d'Android" />
+        <item
+            android:id="@+id/nav_anko"
+            android:icon="@drawable/ic_menu_anko"
+            android:title="Anko" />
+        <item
+            android:id="@+id/nav_numberpicker"
+            android:icon="@drawable/ic_menu_numberpicker"
+            android:title="NumberPicker" />
+    </group>
+
+</menu>
